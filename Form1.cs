@@ -33,6 +33,7 @@ namespace ScientificCalculaor
         private void Form1_Load(object sender, EventArgs e)
         {
             textBox1.Text = "";
+            this.ActiveControl = textBox1;
             f1 = f2 = false; // matrices are not yet filled
             label2.Text = "false";
             label3.Text = "false";
